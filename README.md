@@ -1,6 +1,6 @@
 # **Linear Regression**
 
-* Linear regression is a classic supervised learning algorithm used for predicting continuous values. It models the relationship between an independent variable (input, *X*) and a dependent variable (output, *Y*).
+* Linear regression is a classic supervised learning algorithm used for predicting continuous values. It models the relationship between an independent variable (input, *X*) and a dependent variable (output, *Y*);
 
 **1) Mathematical foundation**
 
@@ -46,8 +46,13 @@ where:
 - $\alpha$ (learning rate) controls the step size;
 - $\frac{\partial J}{\partial w}$ and $\frac{\partial J}{\partial b}$ are gradients of the cost function.
 
+
 The gradients are computed as:
 
 $\frac{\partial J}{\partial w} = -\frac{2}{m}\sum (Y_i - \hat{Y_i})X_i$
 
 $\frac{\partial J}{\partial b} = -\frac{2}{m}\sum (Y_i - \hat{Y_i})$
+
+
+![linear-regression](https://github.com/user-attachments/assets/240d92db-61b2-446d-84a9-2ca79d452437)
+
